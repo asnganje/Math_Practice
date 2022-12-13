@@ -1,0 +1,98 @@
+.keyboard-area {
+  display: grid;
+  height: 100%;
+  gap: 0.2rem;
+  grid-template-areas:
+    "AC plusminus percent divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero decimal equal";
+}
+
+.button0 {
+  grid-area: zero;
+}
+
+.button1 {
+  grid-area: one;
+}
+
+.button2 {
+  grid-area: two;
+}
+
+.button3 {
+  grid-area: three;
+}
+
+.button4 {
+  grid-area: four;
+}
+
+.button5 {
+  grid-area: five;
+}
+
+.button6 {
+  grid-area: six;
+}
+
+.button7 {
+  grid-area: seven;
+}
+
+.button8 {
+  grid-area: eight;
+}
+
+.button9 {
+  grid-area: nine;
+}
+
+.buttonPlus {
+  grid-area: plus;
+  background-color: yellow;
+}
+
+.buttonMinus {
+  grid-area: minus;
+  background-color: yellow;
+}
+
+.buttonMultiply {
+  grid-area: multiply;
+  background-color: yellow;
+}
+
+.buttonDivide {
+  grid-area: divide;
+  background-color: yellow;
+}
+
+.buttonEquals {
+  grid-area: equal;
+  background-color: yellow;
+}
+
+.buttonPercent {
+  grid-area: percent;
+}
+
+.buttonClear {
+  grid-area: AC;
+  background-color: red;
+}
+
+.buttonPlusMinus {
+  grid-area: plusminus;
+}
+
+.buttonDecimal {
+  grid-area: decimal;
+}
+
+.btn {
+  border: none;
+  border: 1px solid rgb(160, 155, 155);
+}

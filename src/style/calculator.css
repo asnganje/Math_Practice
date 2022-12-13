@@ -1,0 +1,14 @@
+.myCalc {
+  width: 500px;
+  height: 500px;
+  margin: 5rem auto;
+}
+
+.displayCalc {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(109, 105, 105);
+  font-size: 2rem;
+  text-align: right;
+  padding: 1rem;
+}
