@@ -5,7 +5,7 @@ class Keypad extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      // Add your state properties here
+
     };
   }
 
